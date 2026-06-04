@@ -26,34 +26,7 @@
 };
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
-        };
-
-        shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
-        };
-
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
-
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-        };
-
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     macros {
         to_layer_0: to_layer_0 {
@@ -86,7 +59,7 @@
 &kp TAB           &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 LANGUAGE_2  &mt LEFT_CONTROL SPACE  &mt LEFT_SHIFT LANGUAGE_1      &lt 2 BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
 
         ARROW_DEVICE {
