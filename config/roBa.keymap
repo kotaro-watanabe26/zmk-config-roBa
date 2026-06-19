@@ -31,11 +31,6 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <10 11>;
-        };
-
-        shift+tab {
-            bindings = <&kp LS(TAB)>;
             key-positions = <11 12>;
         };
     };
