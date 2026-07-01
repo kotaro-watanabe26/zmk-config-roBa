@@ -71,10 +71,10 @@
 
         ARROW_DEVICE {
             bindings = <
-&bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                           &none   &kp HOME           &kp UP_ARROW     &kp END          &none
-&none           &none         &none         &none         &none         &trans           &none   &none   &kp LEFT_ARROW     &kp DOWN_ARROW   &kp RIGHT_ARROW  &kp RIGHT_SHIFT
-&bt BT_CLR      &none         &none         &none         &none         &bootloader      &none   &none   &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &none            &none
-&bt BT_CLR_ALL  &none         &none         &trans        &trans        &trans           &trans  &trans                                                       &none
+&bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                           &kp LC(V)  &kp HOME           &kp UP_ARROW     &kp END          &none
+&none           &none         &none         &none         &none         &trans           &none   &kp LC(C)  &kp LEFT_ARROW     &kp DOWN_ARROW   &kp RIGHT_ARROW  &kp RIGHT_SHIFT
+&bt BT_CLR      &none         &none         &none         &none         &bootloader      &none   &kp LC(X)  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &none            &none
+&bt BT_CLR_ALL  &none         &none         &trans        &trans        &trans           &trans  &trans                                                          &none
             >;
         };
 
@@ -102,7 +102,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &kp LC(V)  &trans        &trans         &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LC(C)  &mkp MB1      &mkp MB3       &mkp MB2   &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LC(X)  &kp RA(LEFT)  &kp RA(RIGHT)  &kp LC(R)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LC(X)  &kp RG(LEFT)  &kp RG(RIGHT)  &kp LC(R)  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                             &trans
             >;
         };
