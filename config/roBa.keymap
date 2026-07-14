@@ -63,7 +63,7 @@
 &kp Q             &kp W         &kp E    &kp R             &kp T                                                                   &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D    &lt 4 F           &kp G                   &kp ESCAPE                     &kp DELETE       &kp H        &kp J  &kp K      &kp L    &kp MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C    &kp V             &kp B                   &kp SEMI                       &kp COLON        &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LEFT_WIN      &kp LEFT_ALT  &kp DEL  &lt 3 LANGUAGE_2  &mt LEFT_CONTROL SPACE  &mt LEFT_SHIFT LANGUAGE_1      &lt 2 BACKSPACE  &lt 1 ENTER                             &kp BACKSLASH
+&kp LEFT_WIN      &kp LEFT_ALT  &kp TAB  &lt 3 LANGUAGE_2  &mt LEFT_CONTROL SPACE  &mt LEFT_SHIFT LANGUAGE_1      &lt 2 BACKSPACE  &lt 1 ENTER                             &kp BACKSLASH
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
