@@ -90,7 +90,7 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E    &kp R             &kp T                                                                 &kp Y        &kp U  &lt 6 I    &kp O    &kp P
-&kp A             &kp S         &kp D    &lt 5 F           &kp G                   &kp ESCAPE                   &kp DELETE       &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&kp A             &kp S         &kp D    &lt 5 F           &kp G                                                &kp DELETE       &kp H        &kp J  &kp K      &kp L    &kp MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C    &kp V             &kp B                   &kp SEMICOLON                &kp COLON        &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LEFT_WIN      &kp LEFT_ALT  &kp TAB  &lt 3 LANGUAGE_2  &mt LEFT_CONTROL SPACE  &mt LEFT_SHIFT LANGUAGE_1    &lt 2 BACKSPACE  &lt 4 ENTER                             &kp NON_US_BACKSLASH
             >;
@@ -101,7 +101,7 @@
         japan_default_layer {
             bindings = <
 &kp Q             &kp W         &kp E    &kp R             &kp T                                                                 &kp Y        &kp U  &lt 6 I    &kp O    &kp P
-&kp A             &kp S         &kp D    &lt 5 F           &kp G                   &kp ESCAPE                   &kp DELETE       &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&kp A             &kp S         &kp D    &lt 5 F           &kp G                                                &kp DELETE       &kp H        &kp J  &kp K      &kp L    &kp MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C    &kp V             &kp B                   &kp SEMICOLON                &kp JP_COLON        &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LEFT_WIN      &kp LEFT_ALT  &kp TAB  &lt 8 LANGUAGE_2  &mt LEFT_CONTROL SPACE  &mt LEFT_SHIFT LANGUAGE_1    &lt 7 BACKSPACE  &lt 4 ENTER                             &kp JP_YEN
             >;
